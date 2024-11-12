@@ -1,0 +1,23 @@
+.ai-button {
+  background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+  padding: 5px 15px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 6px;
+}
+
+.ai-button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;         
+  box-shadow: 0 4px 12px rgba(183, 148, 244, 0.3);
+}
+
+.ai-button kbd {
+  background-color: rgb(255, 255, 255) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  color: black !important;
+}
